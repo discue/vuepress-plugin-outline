@@ -29,14 +29,12 @@
 <script setup>
 import { usePageData, useRoute, useRouter } from '@vuepress/client';
 import { computed, onMounted, ref } from 'vue';
-import observe from './observer.js';
 import SubMenu from './sub-menu.vue';
 
 const headers = ref([]);
 const router = useRouter();
 const route = useRoute();
 const page = usePageData()
-const isFooterVisible = observe('footer')
 
 const isRootPage = computed(() => {
   const { path } = page.value
@@ -47,7 +45,7 @@ const visible = computed(() => {
   if (isRootPage.value) {
     return false
   }
-  return headers.value.length > 0 && isFooterVisible.value === false
+  return headers.value.length > 0
 })
 
 router.afterEach((_to, _from, failure) => {
