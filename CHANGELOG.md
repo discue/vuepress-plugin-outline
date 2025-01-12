@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.2.0...v0.3.0) (2025-01-12)
+
+
+### Features
+
+* **outline:** do not observe footer, expect outline to be hidden by footer ([064fe40](https://github.com/discue/vuepress-plugin-outline/commit/064fe4093eae7fb6eef182a7d5be7f131eb23c3d))
+
 ## [0.2.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.1.0...v0.2.0) (2025-01-12)
 
 
