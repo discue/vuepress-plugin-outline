@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.1.0...v0.2.0) (2025-01-12)
+
+
+### Bug Fixes
+
+* **outline:** fix import paths ([017f918](https://github.com/discue/vuepress-plugin-outline/commit/017f9184c8dc0c9da7ed02be9d43cf7ff569c48b))
+
+
+### Chores
+
+* add tsconfig ([54eb0e6](https://github.com/discue/vuepress-plugin-outline/commit/54eb0e62e9946226d499a31a9a9d1aa4446af982))
+* update release scripts to work on first execution ([0782f9e](https://github.com/discue/vuepress-plugin-outline/commit/0782f9e647758cd3284641ef2219b9c72d7d01ab))
+
 ## 0.1.0 (2025-01-12)
 
 
