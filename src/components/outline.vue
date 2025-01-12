@@ -29,8 +29,8 @@
 <script setup>
 import { usePageData, useRoute, useRouter } from '@vuepress/client';
 import { computed, onMounted, ref } from 'vue';
-import observe from 'vuepress-plugin-anchor-right/src/components/observer';
-import SubMenu from 'vuepress-plugin-anchor-right/src/components/sub-menu.vue';
+import observe from './observer.js';
+import SubMenu from './sub-menu.vue';
 
 const headers = ref([]);
 const router = useRouter();
