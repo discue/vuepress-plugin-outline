@@ -1,0 +1,40 @@
+{
+  "name": "@discue/vuepress-plugin-outline",
+  "author": "Stefan Pfaffel",
+  "version": "0.0.0",
+  "license": "ISC",
+  "private": false,
+  "description": "Adds an outline of the current page's headlines to the right side of the screen",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discue/vuepress-plugin-outline"
+  },
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/discue/vuepress-plugin-outline"
+  },
+  "homepage": "https://ui.discue.io",
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "plugin",
+    "vuepress-plugin-outline",
+    "right-anchor"
+  ],
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "standard-version": "^9.5.0",
+    "vue-tsc": "^2.2.0"
+  },
+  "scripts": {
+    "lint": "eslint -c .eslintconfig.js src",
+    "release": "standard-version && git push --follow-tags origin && npm publish",
+    "release-major": "standard-version --release-as major && git push --follow-tags origin && npm publish",
+    "release-minor": "standard-version --release-as minor && git push --follow-tags origin && npm publish"
+  }
+}
