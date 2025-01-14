@@ -1,29 +1,31 @@
 <template>
-  <Teleport to=".vp-theme-container">
-    <Transition name="outline">
-      <div v-if="visible"
-           class="anchor-right-content">
-        <ul>
-          <li class="start">
-            On this page
-          </li>
-          <template v-for="(item, index) in headers"
-                    :key="index">
-            <template v-if="item.children.length > 0">
-              <sub-menu :key="item.key"
-                        :menu-info="item" />
+  <ClientOnly>
+    <Teleport to=".vp-theme-container">
+      <Transition name="outline">
+        <div v-if="visible"
+             class="anchor-right-content">
+          <ul>
+            <li class="start">
+              On this page
+            </li>
+            <template v-for="(item, index) in headers"
+                      :key="index">
+              <template v-if="item.children.length > 0">
+                <sub-menu :key="item.key"
+                          :menu-info="item" />
+              </template>
+              <template v-else>
+                <li :class="['level', 'level-' + item.level, { active: (!route.hash && index == 0) || route.hash === `#${item.slug}` }]"
+                    @click="headerClick(item)">
+                  {{ item.title }}
+                </li>
+              </template>
             </template>
-            <template v-else>
-              <li :class="['level', 'level-' + item.level, { active: (!route.hash && index == 0) || route.hash === `#${item.slug}` }]"
-                  @click="headerClick(item)">
-                {{ item.title }}
-              </li>
-            </template>
-          </template>
-        </ul>
-      </div>
-    </Transition>
-  </Teleport>
+          </ul>
+        </div>
+      </Transition>
+    </Teleport>
+  </ClientOnly>
 </template>
 
 <script setup>
