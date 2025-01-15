@@ -106,7 +106,7 @@ onMounted(refresh);
 }
 
 .anchor-right-content {
-  @apply text-lg right-0 fixed overflow-auto w-56;
+  @apply right-0 fixed overflow-auto w-56;
 
   top: calc(var(--navbar-height) + 1rem);
   max-height: 84vh;
