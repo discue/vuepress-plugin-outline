@@ -1,7 +1,7 @@
 {
   "name": "@discue/vuepress-plugin-outline",
   "author": "Stefan Pfaffel",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "ISC",
   "private": false,
   "description": "Adds an outline of the current page's headlines to the right side of the screen",
