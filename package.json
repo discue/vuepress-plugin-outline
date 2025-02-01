@@ -26,7 +26,7 @@
     "right-anchor"
   ],
   "devDependencies": {
-    "eslint": "^9.17.0",
+    "eslint": "^9.19.0",
     "eslint-plugin-vue": "^9.32.0",
     "standard-version": "^9.5.0",
     "vue-tsc": "^2.2.0"
