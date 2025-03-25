@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.5.0...v0.6.0) (2025-03-25)
+
+
+### Chores
+
+* **deps-dev:** bump eslint from 9.18.0 to 9.19.0 ([238e825](https://github.com/discue/vuepress-plugin-outline/commit/238e8252457b2220c40c1d815b472ea172821ae3))
+* **deps-dev:** bump eslint from 9.19.0 to 9.21.0 ([97d57c4](https://github.com/discue/vuepress-plugin-outline/commit/97d57c43d53cd2008efeaeab81f7758bf23f666f))
+* **deps-dev:** bump vue-tsc from 2.2.0 to 2.2.6 ([b28e798](https://github.com/discue/vuepress-plugin-outline/commit/b28e79830744350a82db207fd0fbcffbe68a36ae))
+* **deps:** update dependencies ([ab4c2e3](https://github.com/discue/vuepress-plugin-outline/commit/ab4c2e3d97dac9cadbebe1494d6ab46a749fcf9d))
+* **outline:** do not depend on tailwind directives ([27fc3c4](https://github.com/discue/vuepress-plugin-outline/commit/27fc3c4bdc49bbb460dc3fd2a8a8f30a4a861ce6))
+
 ## [0.5.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.4.0...v0.5.0) (2025-01-15)
 
 ## [0.4.0](https://github.com/discue/vuepress-plugin-outline/compare/v0.3.0...v0.4.0) (2025-01-14)
