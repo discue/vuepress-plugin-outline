@@ -26,10 +26,10 @@
     "right-anchor"
   ],
   "devDependencies": {
-    "eslint": "^9.21.0",
-    "eslint-plugin-vue": "^9.32.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-vue": "^9.3.2",
     "standard-version": "^9.5.0",
-    "vue-tsc": "^2.2.6"
+    "vue-tsc": "^2.2.8"
   },
   "scripts": {
     "lint": "eslint -c .eslintconfig.js src",
