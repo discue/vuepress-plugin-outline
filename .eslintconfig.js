@@ -9,7 +9,10 @@ export default [
         languageOptions: {
             ecmaVersion: 2022,
             sourceType: 'module',
-            parser: eslintParser
+            parser: eslintParser,
+            globals: {
+                window: 'readonly'
+            }
         },
         rules: {
             'vue/first-attribute-linebreak': 'off',
