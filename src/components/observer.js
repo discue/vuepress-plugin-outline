@@ -17,7 +17,7 @@ export default (selector) => {
         })
     }
 
-    const observer = new IntersectionObserver(intersectionCallback, observerOptions)
+    const observer = new window.IntersectionObserver(intersectionCallback, observerOptions)
 
     function observe() {
         const element = window.document.querySelector(selector)
