@@ -30,7 +30,7 @@
     "eslint": "^10.11.0",
     "eslint-plugin-vue": "^10.11.1",
     "standard-version": "^9.5.0",
-    "vue-tsc": "^3.3.11"
+    "vue-tsc": "^3.3.13"
   },
   "scripts": {
     "lint": "eslint -c .eslintconfig.js src",
